@@ -37,7 +37,7 @@ export default function FieldList({ nestIndex }) {
       <Button
         type="dashed"
         onClick={() => append({ name: "" })}
-        style={{ width: "100%" }}
+        style={{ width: "70%", backgroundColor: "blue", color: "white"}}
       >+ Add field</Button>
     </div>
   );

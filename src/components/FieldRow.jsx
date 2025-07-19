@@ -34,7 +34,7 @@ export default function FieldRow({ nestIndex, idx, remove, update, fieldsArrayNa
             {...field}
             allowClear
             placeholder="Field type"
-            style={{ width: 100 }}
+            style={{ width: 140 }}
             options={fieldTypes}
             onChange={val => {
               field.onChange(val);
